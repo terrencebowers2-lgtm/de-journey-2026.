@@ -10,65 +10,72 @@ print(" /  |")
 print("/___|")
 
 
-variables_example.py 
-character_name = ("John")
-character_age = "35"
+# variable_example.py
+# Examples of using variables and strings in Python
 
+# Setting initial variables
+character_name = "John"
+character_age = "35"   # Stored as a string so we can concatenate easily
+
+# Printing sentences using variables
 print("There once was a man named " + character_name + ",")
-print("He was " + str(character_age) + " years old.")
+print("He was " + character_age + " years old.")
+
+# Changing the value of the variable
+character_name = "Mike"
+
+# Printing new sentences with the updated variable
 print("He really liked the name " + character_name + ",")
-print("but didn't like being " + str(character_age) + ".")
+print("But didn't like being " + character_age + ".")
 
 
-variable_example.py
-character_name = ("John")
-character_age = "35"
 
-print("There once was a man named " + character_name + ",")
-print("he was " + character_age + " years old.")
+# strings_examples.py
+# Examples of working with strings in Python
 
-character_name = ("Mike")
-
-print("He really liked the name " + character_name + ",")
-print("but didn't like being " + character_age + ". ")
-
-
-string_example.py
-
-- Basic print 
+# 1) Basic string
 print("Giraffe Academy")
 
-- New line with (\n)
+# 2) New line with \n
+# \n tells Python to start a new line
 print("Giraffe\nAcademy")
-Output: Giraffe
-        Academy
+# Output:
+# Giraffe
+# Academy
 
-- Printing quotation marks 
+# 3) Quotation mark inside a string using \"
+# \" lets you put a double-quote inside the string
 print("Giraffe\"Academy")
-Output: Giraffe"Academy
+# Output:
+# Giraffe "Academy
 
-- Using a variable and concatenation 
+# 4) Using a variable and concatenation
 phrase = "Giraffe Academy"
-print(phrase + " is cool")
+print(phrase + " is cool ")
+# Output:
+# Giraffe Academy is cool
 
-- Using string functions
+# 5a) Using a function: lower()
 phrase = "Giraffe Academy"
-print(phrase.lower())   # giraffe academy
+print(phrase.lower())
+# Output:
+# giraffe academy
 
-- Combining functions 
+# 5b) Combining functions: upper() and isupper()
 phrase = "Giraffe Academy"
-print(phrase.upper().isupper())   # True
+print(phrase.upper().isupper())
+# Output:
+# True
 
-- Indexing characters
+# 6a) Indexes in Python (0-based indexing)
 phrase = "Giraffe Academy"
-# Index positions: 0123456789...
-print(phrase[0])   # G
+# index:  0123456789......
+print(phrase[0])  # G
 
--Finding an index with .index()
-phrase = "Giraffe Academy"
-print(phrase.index("G"))   # 0
+# 6b) Passing a parameter into a function (index)
+# index("G") returns the position of "G" in the string
+print(phrase.index("G"))  # 0
 
-#Working with numbers 
 
 
 
