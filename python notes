@@ -10,52 +10,63 @@ print(" /  |")
 print("/___|")
 
 
-#variables and Data types 
-1)Variable Example : 
-character_name = "John"
-character_age = 35
-print("There once was a man named " + character_name + ", ")
-print("he was " + character_age + " years old. ")
-print (He really like the name" + character_name + ", ")
-print("but didn't like being " + character_age + ".")
+variables_example.py 
+character_name = ("John")
+character_age = "35"
 
-2)Variable Example :
-character_name = "John"
-character_age = 35
-print("There once was a man named " + character_name + ", ")
-print("he was " + character_age + " years old. ")
-
-character_name = "Mike"
-print (He really like the name" + character_name + ", ")
-print("but didn't like being " + character_age + ".")
-
-Data types are : strings,numbers, and ture or false values (known as boolean values)
+print("There once was a man named " + character_name + ",")
+print("He was " + str(character_age) + " years old.")
+print("He really liked the name " + character_name + ",")
+print("but didn't like being " + str(character_age) + ".")
 
 
-#Working with strings
-1) Example : print("Giraffe Academy")
-2) Example : print("Giraffe\nAcademy") = the (\n) makes a new line 
-             Giraffe 
-             Academy
-3)Example : print("Giraffe\"Academy") = the (\") adds a quotation to the string.
-            Giraffe "Academy
-4)Example with a variable and concatenation: phrase = "Giraffe Academy"
-                                             print(phrase + " is cool ")
-5a) Example with function : phrase = "Giraffe Academy"
-                            print(phrase.lower())
-                            giraffe academy
-5b) Example with functions combination : phrase = "Giraffe Academy"
-                                         print(phrase.upper().isupper())
-                                          True
+variable_example.py
+character_name = ("John")
+character_age = "35"
 
-6a) Example of indexes in pything : phrase = "Giraffe Academy"
-                                             0123456789
-                                   print(phrase[0])
-                                   G
-6b) Example of passing parameters : phrase =  "Giraffe Academy"
-                                    print(phrase.index("G"))
-                                        0
+print("There once was a man named " + character_name + ",")
+print("he was " + character_age + " years old.")
 
+character_name = ("Mike")
+
+print("He really liked the name " + character_name + ",")
+print("but didn't like being " + character_age + ". ")
+
+
+string_example.py
+
+- Basic print 
+print("Giraffe Academy")
+
+- New line with (\n)
+print("Giraffe\nAcademy")
+Output: Giraffe
+        Academy
+
+- Printing quotation marks 
+print("Giraffe\"Academy")
+Output: Giraffe"Academy
+
+- Using a variable and concatenation 
+phrase = "Giraffe Academy"
+print(phrase + " is cool")
+
+- Using string functions
+phrase = "Giraffe Academy"
+print(phrase.lower())   # giraffe academy
+
+- Combining functions 
+phrase = "Giraffe Academy"
+print(phrase.upper().isupper())   # True
+
+- Indexing characters
+phrase = "Giraffe Academy"
+# Index positions: 0123456789...
+print(phrase[0])   # G
+
+-Finding an index with .index()
+phrase = "Giraffe Academy"
+print(phrase.index("G"))   # 0
 
 #Working with numbers 
 
